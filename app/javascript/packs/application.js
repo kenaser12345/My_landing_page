@@ -14,3 +14,4 @@ import $ from 'jquery'
 window.$ = $
 
 import "bootstrap"
+import "@fortawesome/fontawesome-free/js/all";
