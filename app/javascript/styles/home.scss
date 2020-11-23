@@ -1,5 +1,12 @@
-.my_info{
+body{
+  margin: 0;
+}
+.app{
   width: 100vw;
+  background-color: #f3e9e4;
+}
+.my_info{
+  width: 100%;
   height: 100vh;
   background-color: #4b4b4b;
   display: flex;
@@ -45,9 +52,30 @@
   }
 }
 
-body{
-  margin: 0;
+.about_me{
+  width: 100%;
+  .part_of_about{
+    background-color: #ffffff;
+    margin-top: 10%;
+    padding: 30px 25px 30px 25px;
+    .title{
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .content{
+      font-size: 17px;
+      .interest{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        .pic{
+          width: 100%;
+        }
+      }
+    }
+  }
 }
+
 
 
 
