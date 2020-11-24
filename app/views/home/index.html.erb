@@ -47,9 +47,37 @@
       <div class="title">
         <p>興趣</p>
       </div>
+    <%# <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
+      </div>
+    </div> %>
       <div class="content row">
         <div class="interest col-4">
-          <%= image_tag "food2.jpg",class:"pic" %>
+          <a class="" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+            <%= image_tag "food7.jpg",class:"pic" %>
+          </a>
+        </div>
+        <div class="interest col-4">
+          <a class="" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
+            <%= image_tag "draw1.jpg",class:"pic" %>
+          </a>
+        </div>
+        <div class="interest col-4">
+          <a class="" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">            
+            <%= image_tag "japanese1.jpg",class:"pic" %>
+          </a>
         </div>
       </div>  
     </section>

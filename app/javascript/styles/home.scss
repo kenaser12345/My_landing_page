@@ -64,9 +64,12 @@ body{
     }
     .content{
       font-size: 17px;
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: center;
       .interest{
-        width: 200px;
         height: 200px;
+        // margin: 0px 10px 10px 10px;
         overflow: hidden;
         .pic{
           width: 100%;
