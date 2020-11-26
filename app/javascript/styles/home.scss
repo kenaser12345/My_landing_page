@@ -64,13 +64,22 @@ body{
     }
     .content{
       font-size: 17px;
-      // display: flex;
-      // flex-wrap: wrap;
-      // justify-content: center;
       .interest{
         margin-bottom: 30px;
         overflow: hidden;
         .pic{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .project{
+        a{
+          font-size: 25px;
+          font-weight: 500;
+          color: #6b90b4;
+        }
+        .project_img{
+          margin-top: 20px;
           width: 100%;
           height: auto;
         }
